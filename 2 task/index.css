@@ -134,7 +134,7 @@ body {
 .footer {
   padding: 0 5rem;
   width: 100vw;
-  min-height: 30vh;
+  height: 30vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -208,6 +208,9 @@ body {
   }
   .phone_details {
     display: inline;
+  }
+  .footer {
+    height: fit-content;
   }
   .footer_content {
     width: 90vw;
